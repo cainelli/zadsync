@@ -21,10 +21,10 @@ apt-get install libnet-ldap-perl libmime-lite-perl
 > You should do the following steps on the zimbra mailstore or zimbra ldap server.
 
 ```sh
-git clone https://github.com/cainelli/zimbra-utils.git
+git clone https://github.com/cainelli/zadsync.git
 mkdir -p /etc/zadsync/
-cp zimbra-utils/etc/* /etc/zadsync/
-cp zimbra-utils/bin/* /usr/local/bin/
+cp zadsync/etc/* /etc/zadsync/
+cp zadsync/bin/* /usr/local/bin/
 chmod +x /usr/local/bin/zadsync.pl
 ```
 This is a base configuration you can use for initial setup:
